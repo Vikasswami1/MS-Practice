@@ -19,7 +19,7 @@ public class selenium2 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
 		
-		System.out.println(driver.getTitle());
+		
 		System.out.println(driver.getCurrentUrl());
 	    driver.manage().window().maximize();
 	   // Actions a=new Actions(driver);
